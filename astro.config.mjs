@@ -14,9 +14,4 @@ export default defineConfig({
 			sidebar: [
 				{ label: 'Schedule', autogenerate: { directory: 'schedule' }, },
 			],
-			customCss: [
-				'/src/styles/custom.css',
-			],
-		}),
-	],
-});
+			customCss
